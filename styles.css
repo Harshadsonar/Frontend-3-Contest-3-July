@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;800&display=swap');
+* {
+    font-family: 'Mulish', sans-serif;
+    margin: 5px 0px;
+    color: #333333;
+    background-color: #FFFFFF;
+}
+
+.sign-in {
+    margin: 100px 500px;
+}
+
+#title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.57px;
+}
+
+#heading {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+}
+
+.username .email .password .confirm-password {
+    height: 59px;
+    border-radius: 6px;
+    border: 1px;
+}
+
+.sign-in input {
+    border: 1px solid #DEDEDE;
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.sign-in button {
+    font-size: 16px;
+    line-height: 18px;
+    width: 365px;
+    padding: 15px;
+    border-radius: 5px;
+    background: linear-gradient(180deg, #625BF7 0%, #463EEA 100%);
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #78019c;
+    border: none;
+    font-weight: 800;
+}
+
+#profile a {
+    text-decoration: none;
+    color: #625BF7;
+}
+
+@media screen and (max-width: 1279px) {
+    .sign-in {
+        margin: 50px 400px;
+    }
+    .sign-in button {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1147px) {
+    .sign-in {
+        margin: 50px 350px;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .sign-in {
+        margin: 50px 100px;
+    }
+    .sign-in button {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 438px) {
+    .sign-in {
+        margin: 50px 50px;
+    }
+    .sign-in button {
+        width: 150px;
+    }
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;700;800&display=swap');
+* {
+    font-family: 'Mulish', sans-serif;
+    margin: 10px 0px;
+    color: #333333;
+}
+
+body {
+    background-image: url(./assets/Background\ Pattern.png);
+}
+
+#signup-success {
+    font-size: 24px;
+    padding: 50px 0px 0px 600px;
+}
+
+.profile-page {
+    width: 30%;
+    margin: 70px 500px;
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 8px 0px #0000000D;
+}
+
+.profile {
+    font-size: 24px;
+    padding-left: 150px;
+    font-weight: 700;
+}
+
+.profile-page #img-1 {
+    margin-top: 20px;
+    padding-left: 15px;
+}
+
+.profile-page #img-2 {
+    margin-bottom: 30px;
+}
+
+.profile-page .profile-photo img {
+    margin: 0px 150px;
+}
+
+.signup-data {
+    text-align: center;
+    font-size: 24px;
+}
+
+.logout button {
+    font-size: 16px;
+    line-height: 18px;
+    width: 365px;
+    padding: 15px;
+    border-radius: 5px;
+    background: linear-gradient(180deg, #625BF7 0%, #463EEA 100%);
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #78019c;
+    border: none;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 1279px) {
+    .profile-page {
+        margin: 50px 400px;
+    }
+    .logout button {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1147px) {
+    .profile-page {
+        margin: 50px 350px;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .profile-page {
+        margin: 50px 100px;
+    }
+    .logout button {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 438px) {
+    .profile-page {
+        margin: 50px 50px;
+    }
+    .logout button {
+        width: 150px;
+    }
+}

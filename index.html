@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Authentication system</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="sign-in">
+        <span style="color: #757575;" id="title">Welcome back! 👋</span>
+        <h1 id="heading">Sign up to your account</h1>
+        <form id="signup-form">
+            <div class="username">
+                <label for="username">Your name</label><br>
+                <input type="text" id="username" required>
+            </div>
+            <div class="email">
+                <label for="email">Your email</label><br>
+                <input type="email" id="email" required>
+            </div>
+            <div class="password">
+                <label for="password">Password</label><br>
+                <input type="password" id="password" required>
+            </div>
+            <div class="confirm-password">
+                <label for="confirm-password">Confirm Password</label><br>
+                <input type="password" id="confirm-password" required>
+            </div>
+            <button type="submit" value="Submit">CONTINUE</button>
+            <div id="profile">
+                <p>Don’t have an account? <a href="#">Sign up</a></p>
+            </div>
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
